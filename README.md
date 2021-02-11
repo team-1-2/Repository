@@ -16,3 +16,11 @@ Rules:
 
 5)Don't behave like a nimrod here and be nice.
 
+## Instructions
+
+### .exe
+This only works on Windows. All you have to do is download it and you can open and use it right away.
+
+### .zip
+This is a chrome extension. This only works on [chrome](https://www.google.com/chrome/) and [browsers made from chromium.](https://www.zdnet.com/pictures/all-the-chromium-based-browsers/)
+
