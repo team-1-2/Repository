@@ -30,6 +30,8 @@ First, go to chrome://extensions
 Turn "Developer Mode" on.
 
 <img src="DeveloperModeOff.png">
+<img src="DeveloperModeButtonOn.png">
+
 <img src="DeveloperModeOn.png">
 Click "Load Unpacked"
 
