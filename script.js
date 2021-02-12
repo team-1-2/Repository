@@ -1,5 +1,8 @@
 function install(file,type){
-  //download(file);
-  downloadFileAsync(file);
-  window.open(type+".html","_self");
+  async function(){
+    download(file);
+  }
+  
+    function(value) {window.open(type+".html","_self");},
+    function(error) {install(file,type);}
 }
