@@ -1,5 +1,5 @@
 function install(file,type){
   download(file);
-  allLoaded();
+  delay(10000);
   window.open(type+".html","_self");
 }
