@@ -1,6 +1,5 @@
 function install(file,type){
-  download(file);
-  download(file).then(() => {
+  download(file);.then(() => {
     window.open(type+".html","_self");
-  });
+  })
 }
