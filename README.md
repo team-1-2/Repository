@@ -27,7 +27,7 @@ This is a chrome extension. This only works on [chrome](https://www.google.com/c
 First, go to chrome://extensions
 
 <img src="ChromeExtensions.png">
-Click "Developer Mode"
+Turn "Developer Mode" on.
 
 <img src="DeveloperModeOff.png">
 <img src="DeveloperModeOn.png">
