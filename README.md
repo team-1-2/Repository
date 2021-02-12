@@ -23,4 +23,17 @@ This only works on Windows. All you have to do is download it and you can open a
 
 ### .zip
 This is a chrome extension. This only works on [chrome](https://www.google.com/chrome/) and [browsers made from chromium.](https://www.zdnet.com/pictures/all-the-chromium-based-browsers/)
+##### install .zip
+First, go to chrome://extensions
 
+<img src="ChromeExtensions.png">
+Click "Developer Mode"
+
+<img src="DeveloperModeOff.png">
+<img src="DeveloperModeOn.png">
+Click "Load Unpacked"
+
+<img src="DeveloperButtons.png">
+Select the downloaded .zip file.
+
+You're done! You now have the chrome extension.
