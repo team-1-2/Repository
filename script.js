@@ -4,5 +4,5 @@ function openURL(URL) {
 }
 
 function install(file) {
-	download(file,file);
+	download(file);
 }
