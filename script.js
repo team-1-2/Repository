@@ -3,5 +3,5 @@ function openURL(URL) {
 	window.open(URL, "_self");
 }
 function install(file) {
-	window.downloads.download({url: file});
+	window.download(file);
 }
