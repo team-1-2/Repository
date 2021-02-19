@@ -1,7 +1,6 @@
 function start() {
 	var download = document.getElementById("download");
 	download.click();
-	home();
 }
 function openURL(URL) {
 	window.open(URL, "_self");
