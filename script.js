@@ -3,6 +3,8 @@ function start() {
 	download.click();
 }
 function openURL(URL) {
-	console.log("URL : "+ URL);
 	window.open(URL, "_self");
+}
+function home() {
+	window.open("index.html", "_self");
 }
