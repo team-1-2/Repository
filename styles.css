@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 .ubuntu {
   font-family: "Ubuntu";
+}
+.shareTech {
+  font-family: "Share Tech";
 }
