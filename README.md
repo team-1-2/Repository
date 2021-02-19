@@ -1,5 +1,5 @@
 # Read Me
-## [Our website](_https://team-1-2.github.io/Repository/)
+## [Our website](https://team-1-2.github.io/Repository/?target="_blank")
 ## This is a random team and we just post interesting code here.
 
 We just copy and paste stuff we find in github and other sites we found on the internet.
