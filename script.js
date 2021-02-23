@@ -13,6 +13,6 @@ function menu() {
 	var pieces = document.getElementsByClassName("menupiece");
 	
 	for (var i = 0; i < pieces.length; i++) {
-		pieces[i].width = ((100/pieces.lenth).toString + "%");
+		pieces[i].width = "50%";
 	}
 }
