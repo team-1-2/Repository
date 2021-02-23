@@ -13,6 +13,6 @@ function menu() {
 	var pieces = document.getElementsByClassName("menupiece");
 	
 	for (var i = 0; i < pieces.length; i++) {
-		pieces[i].value = "50";
+		pieces[i].text = "50";
 	}
 }
