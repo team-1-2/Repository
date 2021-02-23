@@ -17,6 +17,7 @@
 	display: inline-block;
 	font-size: 16px;
 	float: left;
+	width: 50%;
 }
 .menupiece:hover {
 	background-color: #3C6F40;
