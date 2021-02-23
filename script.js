@@ -8,11 +8,3 @@ function openURL(URL) {
 function home() {
 	window.open("index.html", "_self");
 }
-function menu() {
-	const menu = document.getElementById("menu");
-	var pieces = document.getElementsByClassName("menupiece");
-	
-	for (var i = 0; i < pieces.length; i++) {
-		pieces[i].text = "50";
-	}
-}
