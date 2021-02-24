@@ -38,3 +38,7 @@ body {
 	height: 50%;
 	background-color: #22EE22;
 }
+.block a{
+	height: 100%;
+	width: 100%;
+}
