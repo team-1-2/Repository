@@ -11,7 +11,7 @@ body {
 	font-family: "Share Tech";
 }
 .menupiece {
-	background-color: #4CAF50; /* Green */
+	background-color: #FFFF00; /* Yellow */
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -23,11 +23,11 @@ body {
 	width: 50%;
 }
 .menupiece:hover {
-	background-color: #3C6F40;
+	background-color: #666600; /* Dark Yellow */
 }
 .menu {
 	width: 100%;
-	background-color: #4CAF50; /* Green */
+	background-color: #FFFF00; /* Yellow */
 	border: none;
 	display: inline-block;
 }
