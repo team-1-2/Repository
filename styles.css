@@ -49,7 +49,7 @@ body {
 	padding: 12px 30px;
 	cursor: pointer;
 	font-size: 20px;
-	align: left;
+	float: left;
 }
 
 /* Darker background on mouse-over */
