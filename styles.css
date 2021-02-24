@@ -33,3 +33,8 @@ body {
 	border: none;
 	display: inline-block;
 }
+.block {
+	width: 30%;
+	height: auto;
+	background-color: #22EE22;
+}
