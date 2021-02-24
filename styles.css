@@ -50,3 +50,7 @@ body {
 .btn:hover {
   background-color: RoyalBlue;
 }
+
+.active {
+	background-color: Pink;
+}
