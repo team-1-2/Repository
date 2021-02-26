@@ -24,6 +24,9 @@
 	background-color: #666600; /* Dark Yellow */
 	color: white;
 }
+.menupiece .secret {
+	width: 100%;
+}
 .menu {
 	width: 100%;
 	background-color: #FFFF00; /* Yellow */
