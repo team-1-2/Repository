@@ -11,13 +11,16 @@ function home() {
 function say(message) {
 	alert(message);
 }
-function openFullscreen(id) {
-	var elem = document.getElementById(id);
-  	if (elem.requestFullscreen) {
-   		elem.requestFullscreen();
-  	} else if (elem.webkitRequestFullscreen) { /* Safari */
-    		elem.webkitRequestFullscreen();
-  	} else if (elem.msRequestFullscreen) { /* IE11 */
-    		elem.msRequestFullscreen();
-  	}
+function requestFullScreen(element) {
+    // Supports most browsers and their versions.
+    var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;
+
+    if (requestMethod) { // Native full screen.
+        requestMethod.call(element);
+    } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+        var wscript = new ActiveXObject("WScript.Shell");
+        if (wscript !== null) {
+            wscript.SendKeys("{F11}");
+        }
+    }
 }
