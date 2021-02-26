@@ -14,3 +14,7 @@ function say(message) {
 function fullscreen(URL) {
  	window.open(URL, '', 'fullscreen, _self');
 }
+function max()
+            {
+               window.open("", "_self", "fullscreen=yes, scrollbars=auto"); 
+            }
