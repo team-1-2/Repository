@@ -8,3 +8,6 @@ function openURL(URL) {
 function home() {
 	window.open("index.html", "_self");
 }
+function say(message) {
+	alert(message);
+}
