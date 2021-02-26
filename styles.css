@@ -47,7 +47,7 @@
 }
 
 .active {
-	background-color: Pink;
+	background-color: #ff5722;
 }
 .active:hover {
 	background-color: Crimson;
