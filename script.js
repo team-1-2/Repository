@@ -11,3 +11,13 @@ function home() {
 function say(message) {
 	alert(message);
 }
+function openFullscreen(id) {
+	var elem = getElementById(id);
+  	if (elem.requestFullscreen) {
+    		elem.requestFullscreen();
+  	} else if (elem.webkitRequestFullscreen) { /* Safari */
+    		elem.webkitRequestFullscreen();
+  	} else if (elem.msRequestFullscreen) { /* IE11 */
+    		elem.msRequestFullscreen();
+  	}
+}
