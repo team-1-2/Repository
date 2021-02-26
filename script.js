@@ -12,5 +12,5 @@ function say(message) {
 	alert(message);
 }
 function fullscreen(URL) {
- 	window.open(theURL, '', '_self, fullscreen=yes');
+ 	window.open(URL, '', '_self , fullscreen=yes');
 }
