@@ -21,7 +21,7 @@
 	transition: all 0.5s ease;
 }
 .menupiece:hover {
-	background-color: Amber; /* Dark Yellow */
+	background-color:#ffc107 /* Dark Yellow */
 	color: white;
 }
 .menu {
