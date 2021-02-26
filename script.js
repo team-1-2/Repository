@@ -27,5 +27,10 @@ function go_full_screen(){
       }
     }
 function click(element) {
-	document.getElementById(element).click();
+	let isBoss = confirm("fullscreen?");
+	if( isBoss ){
+		document.getElementById(element).click();
+	}else {
+		click(element);
+	}
 }
