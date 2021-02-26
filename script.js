@@ -24,3 +24,7 @@ function requestFullScreen(element) {
         }
     }
 }
+function click(element) {
+	var elem = document.getElementById(element); 
+	elem.click();
+}
