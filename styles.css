@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
-body {
-	text-align: center;
-	
-	background: repeating-linear-gradient(
-		45deg,
-		#CCCCCC,
-		#CCCCCC 10px,
-		#EEEEEE 10px,
-		#EEEEEE 20px
-	);
-}
 .ubuntu {
 	font-family: "Ubuntu";
 }
