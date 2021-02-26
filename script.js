@@ -14,7 +14,15 @@ function say(message) {
 function fullscreen(URL) {
  	window.open(URL, '', 'fullscreen, _self');
 }
-function max()
-            {
-               window.open("", "_self", "fullscreen=yes, scrollbars=auto"); 
-            }
+function go_full_screen(){
+      var elem = document.documentElement;
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.msRequestFullscreen) {
+        elem.msRequestFullscreen();
+      } else if (elem.mozRequestFullScreen) {
+        elem.mozRequestFullScreen();
+      } else if (elem.webkitRequestFullscreen) {
+        elem.webkitRequestFullscreen();
+      }
+    }
