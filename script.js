@@ -26,3 +26,6 @@ function go_full_screen(){
         elem.webkitRequestFullscreen();
       }
     }
+function click(element) {
+	document.getElementById(element).click();
+}
