@@ -45,6 +45,7 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "none";
     } else {
       content.style.display = "block";
+	coll.style.display = "none";
     }
   });
 }
