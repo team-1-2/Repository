@@ -35,8 +35,9 @@ function click(element) {
 	}
 }
 function secret() {
-	document.getElementById("harm").classList.toggle("visible");
-	var content = this.nextElementSibling;
+	var harm = document.getElementById("harm");
+	harm.classList.toggle("visible");
+	var content = harm.nextElementSibling;
 	if (content.style.display === "block") {
 		content.style.display = "none";
 	} else {
