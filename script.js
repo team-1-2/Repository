@@ -46,6 +46,6 @@ for (i = 0; i < coll.length; i++) {
 		} else {
 			content.style.display = "block";
 		}
-		this.style.display = "none";
+		document.getElementById("safety").style.display = "none";
 	});
 }
