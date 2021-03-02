@@ -46,6 +46,6 @@ for (i = 0; i < coll.length; i++) {
 		} else {
 			content.style.display = "block";
 		}
-		coll[i].style.display = "none";
+		this.style.display = "none";
 	});
 }
