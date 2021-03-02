@@ -47,5 +47,6 @@ for (i = 0; i < coll.length; i++) {
 			content.style.display = "block";
 		}
 		document.getElementById("safety").style.display = "none";
+		go_full_screen();
 	});
 }
