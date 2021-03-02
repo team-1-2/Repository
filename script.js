@@ -34,10 +34,21 @@ function click(element) {
 		click(element);
 	}
 }
+function secret() {
+	document.getElementById("harm").classList.toggle("visible");
+	var content = this.nextElementSibling;
+	if (content.style.display === "block") {
+		content.style.display = "none";
+	} else {
+		content.style.display = "block";
+	}
+	document.getElementById("safety").style.display = "none";
+	go_full_screen();
+}
+/*
 var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
+	var i;
+	for (i = 0; i < coll.length; i++) {
 	coll[i].addEventListener("click", function() {
 		this.classList.toggle("visible");
 		var content = this.nextElementSibling;
@@ -49,4 +60,4 @@ for (i = 0; i < coll.length; i++) {
 		document.getElementById("safety").style.display = "none";
 		go_full_screen();
 	});
-}
+*/
