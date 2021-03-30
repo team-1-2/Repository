@@ -7,6 +7,9 @@
 .shareTech {
 	font-family: "Share Tech";
 }
+.overMenu{
+	height: 100px;
+}
 .menupiece {
 	background-color: Yellow;
 	border: none;
@@ -28,6 +31,7 @@
 	background-color: Yellow;
 	border: none;
 	display: inline-block;
+	position: fixed;
 }
 
 .btn {
