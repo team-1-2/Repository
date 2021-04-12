@@ -2,8 +2,8 @@ function start() {
 	const download = document.getElementById("download");
 	download.click();
 }
-function openURL(URL) {
-	window.open(URL, "_self");
+function openURL(URL,name = "_self") {
+	window.open(URL, name);
 }
 function home() {
 	window.open("index.html", "_self");
