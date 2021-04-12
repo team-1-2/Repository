@@ -22,21 +22,5 @@ We just copy and paste stuff we find in github and other sites we found on the i
 ### .exe
 This only works on Windows. All you have to do is download it and you can open and use it right away.
 
-### .zip
-This is a chrome extension. This only works on [chrome](https://www.google.com/chrome/) and [browsers made from chromium.](https://www.zdnet.com/pictures/all-the-chromium-based-browsers/)
-##### install .zip
-First, go to chrome://extensions
-
-<img src="ChromeExtensions.png">
-Turn "Developer Mode" on.
-
-<img src="DeveloperModeOff.png">
-<img src="DeveloperModeButtonOn.png">
-
-<img src="DeveloperModeOn.png">
-Click "Load Unpacked"
-
-<img src="DeveloperButtons.png">
-Select the downloaded .zip file.
-
-You're done! You now have the chrome extension.
+### links
+These you just click the link and follow the instructions.
