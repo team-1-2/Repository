@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 code{
-	background-color:222222;
+	background-color:#222222;
+	color:white;
 }
 .ad div{
 	background-color:blue;
