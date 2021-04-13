@@ -5,8 +5,13 @@
 	text-align:center;
 	width:200px;
 }
-p,h1.ad{
+.ad h1{
 	font-family:shareTech;
+	text-decoration:none;
+	color:white;
+}
+.ad p{
+	font-family:ubuntu;
 	text-decoration:none;
 	color:white;
 }
