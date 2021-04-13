@@ -4,7 +4,8 @@
 code{
 	background-color:#222222;
 	color:white;
-	margin:5px;
+	margin:6px;
+	border-radius: 4px;
 }
 .ad div{
 	background-color:blue;
