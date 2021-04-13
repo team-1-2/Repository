@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
+body{
+	text-align: center;
+}
+.ad div{
+	background-color:blue;
+	text-align:center;
+	font-family:shareTech;
+	text-decoration:none;
+	color:white;
+	width:200px;
+}
 .ubuntu {
 	font-family: "Ubuntu";
 }
