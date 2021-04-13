@@ -17,10 +17,3 @@ We just copy and paste stuff we find in github and other sites we found on the i
 
 5) Don't behave like a nimrod here and be nice.
 
-## Instructions
-
-### .exe
-This only works on Windows. All you have to do is download it and you can open and use it right away.
-
-### links
-These you just click the link and follow the instructions.
