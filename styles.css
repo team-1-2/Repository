@@ -3,10 +3,12 @@
 .ad div{
 	background-color:blue;
 	text-align:center;
+	width:200px;
+}
+.ad p , h1{
 	font-family:shareTech;
 	text-decoration:none;
 	color:white;
-	width:200px;
 }
 .ubuntu {
 	font-family: "Ubuntu";
