@@ -1,0 +1,29 @@
+  
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hacking The Dino Game</title>
+		<link href="styles.css" rel="stylesheet"></link>
+		<link rel="icon" href="spyware.svg" type="image/svg">
+	</head>
+	<body>
+		<div class="menu" id="menu">
+			<button class="shareTech menupiece" onClick="openURL('https://team-1-2.github.io/Repository/index.html');">Home</button>
+			<button class="shareTech menupiece" onClick="openURL('https://team-1-2.github.io/Repository/hacks.html');">Hacks</button>
+			<button class="shareTech menupiece active" onClick="openURL('https://team-1-2.github.io/Repository/apps.html');">Apps</button>
+		</div>
+		<h1 class="ubuntu">How to hack the chrome dino game.</h1>
+		<p class="shareTech">First, you have to get to the dino game. To do this you have to type chrome://dino in the url bar.<br><br>
+			Next, you will open the game by pressing the space bar. Then right-click and click inspect. The inspector will open and your game will have paused.<br><br>
+			Now go to the console panel. <br><h3>Invincibility</h3>
+			Copy and paste this into the console:<br>
+			<code>var original = Runner.prototype.gameOver</code><br>
+			Then copy and paste this into the console:<br>
+			<code>Runner.prototype.gameOver = function(){}</code><br>
+			Click on the game again and you can go through all the cactuses and birds!<br>
+			When you get bored and want to stop, type this into the console:<br>
+			<code>Runner.prototype.gameOver = original</code><br>
+		</p>
+		<script src="script.js"></script>
+	</body>
+</html>
