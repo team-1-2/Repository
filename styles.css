@@ -4,7 +4,8 @@
 code{
 	background-color:#222222;
 	color:white;
-	margin:6px;
+	padding:6px;
+	margin: 8px 8px 8px 8px;
 	border-radius: 4px;
 }
 .ad div{
