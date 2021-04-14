@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
-code{
+.code{
 	background-color:#222222;
 	color:white;
 	padding:6px;
