@@ -17,12 +17,12 @@
 			Next, you will open the game by pressing the space bar. Then right-click and click inspect. The inspector will open and your game will have paused.<br><br>
 			Now go to the console panel. <br></p><h3 class="ubuntu">Invincibility</h3><p class="shareTech">
 			Copy and paste this into the console:<br><br>
-			<input class="code" id="code1" value="var original = Runner.prototype.gameOver" readonly width="300px"></input><button onClick="clipboard('code1')"><i class="fa fa-paste"></i> copy</button><br><br>
+			<input class="code" id="code1" value="var original = Runner.prototype.gameOver" readonly style="width:300px"></input><button onClick="clipboard('code1')"><i class="fa fa-paste"></i> copy</button><br><br>
 			Then copy and paste this into the console:<br><br>
-			<span class="code" id="code2">Runner.prototype.gameOver = function(){}</span><br><br>
+			<input class="code" id="code2" value="Runner.prototype.gameOver = function(){}" readonly style="width:300px"></input><br><br>
 			Click on the game again and you can go through all the cactuses and birds!<br><br><br>
 			When you get bored and want to stop, type this into the console:<br><br>
-			<span class="code" id="code3">Runner.prototype.gameOver = original</span><br><br>
+			<input class="code" id="code3" value="Runner.prototype.gameOver = original" readonly style="width:300px"></input><br><br>
 		</p>
 		<script src="script.js"></script>
 	</body>
