@@ -17,3 +17,8 @@ We just copy and paste stuff we find in github and other sites we found on the i
 
 5) Don't behave like a nimrod here and be nice.
 
+### URLS:
+
+1) [hacki.ga](http://hacki.ga) Homepage
+2) [hacks.ml](http://hacks.ml) Homepage
+3) [hackingdino.ga](http://hackingdino.ga) How to hack chrome://dino
