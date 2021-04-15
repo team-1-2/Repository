@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 body{
-	caret-color: yellow;
+	font-family: Zen Dots;
 }
 .code{
 	background-color:#222222;
